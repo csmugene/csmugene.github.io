@@ -32,7 +32,10 @@ project_four: Fourth Project
 project_four_description: Describe your project!
 project_four_url: https://github.com/jameshamann/jekyll-material-theme
 project_four_icon: restaurant
-
+project_five: Fourth Project
+project_five_description: Describe your project!
+project_five_url: https://github.com/jameshamann/jekyll-material-theme
+project_five_icon: restaurant
 portfolio_heading: Portfolio
 portfolio_type: cards
 
