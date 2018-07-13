@@ -1,4 +1,4 @@
-title: Harder, Better
+title: 이충섭
 name: 이충섭
 email: csmugene@gmail.com
 description: Software Engineer
@@ -32,10 +32,39 @@ project_four: Fourth Project
 project_four_description: Describe your project!
 project_four_url: https://github.com/jameshamann/jekyll-material-theme
 project_four_icon: restaurant
-project_five: Fourth Project
+
+project_five: Five Project
 project_five_description: Describe your project!
 project_five_url: https://github.com/jameshamann/jekyll-material-theme
 project_five_icon: restaurant
+
+project_six: Six Project
+project_six_description: Describe your project!
+project_six_url: https://github.com/jameshamann/jekyll-material-theme
+project_six_icon: restaurant
+
+
+project_seven: Seven Project
+project_seven_description: Describe your project!
+project_seven_url: https://github.com/jameshamann/jekyll-material-theme
+project_seven_icon: restaurant
+
+
+project_eight: Eight Project
+project_eight_description: Describe your project!
+project_eight_url: https://github.com/jameshamann/jekyll-material-theme
+project_eight_icon: restaurant
+
+project_nine: Nine Project
+project_nine_description: Describe your project!
+project_nine_url: https://github.com/jameshamann/jekyll-material-theme
+project_nine_icon: restaurant
+
+project_ten: Ten Project
+project_ten_description: Describe your project!
+project_ten_url: https://github.com/jameshamann/jekyll-material-theme
+project_ten_icon: restaurant
+
 portfolio_heading: Portfolio
 portfolio_type: cards
 
@@ -79,8 +108,8 @@ colored: colored # Leave blank for black and white icons
 
 project_button: Github
 
-github: https://github.com/jameshamann/jekyll-material-theme
-medium: https://medium.com
+#github: https://github.com/jameshamann/jekyll-material-theme
+#medium: https://medium.com
 
 baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
 url: https://csmugene.github.io/ #the url of your site
