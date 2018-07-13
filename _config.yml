@@ -11,8 +11,8 @@ display_footer: inital  #change this to 'none' if you want to hide the footer co
 parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
 parallax_image_two: assets/images/startup3.jpg
 
-project_one: "First Project"
-project_one_description: Describe your project!
+project_one: "스마트택배"
+project_one_description: 총 누적 다운로드수 580만
 project_one_url: https://github.com/jameshamann/jekyll-material-theme
 project_one_icon: location_on
 
@@ -106,7 +106,7 @@ skills:
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
 
-project_button: Github
+project_button: Check it out
 
 #github: https://github.com/jameshamann/jekyll-material-theme
 #medium: https://medium.com
