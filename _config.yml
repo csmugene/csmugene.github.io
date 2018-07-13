@@ -1,8 +1,8 @@
 # Site settings
-title: Swift
+title: LIXX
 description: A clean minimal Theme for Jekyll
-email: pranav@maangalabs.com
-baseurl: /swift
+email: csmugene@gmail.com
+baseurl: /
 url: "http://pranav.maangalabs.com" # the base hostname & protocol for your site
 #favicon
 favicon: /favicon.png
