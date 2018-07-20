@@ -12,58 +12,37 @@ parallax_image_one: assets/images/startup3.jpg # These are the images used for t
 parallax_image_two: assets/images/startup3.jpg
 
 project_one: "스마트택배"
-project_one_description: 총 누적 다운로드수 580만
+project_one_description: 누적 다운로드수 580만, 실제 사용자 300만명이 사용하는 어플리케이션으로 성장
 project_one_url: https://github.com/jameshamann/jekyll-material-theme
 project_one_icon: location_on
 
-project_two: Second Project
-project_two_description: Describe your project!
+project_two: C Alarm
+project_two_description: 설정한 알람 시간에 가상화폐의 가격을 보여주는 어플리케이션
 project_two_url: https://github.com/jameshamann/jekyll-material-theme
 project_two_icon: photo_camera
 
 
-project_three: Third Project
-project_three_description: Describe your project!
+project_three: 퀵커
+project_three_description: 퀵 서비스 업체 50여개에서 사용 중
 project_three_url: https://github.com/jameshamann/jekyll-material-theme
 project_three_icon: hotel
 
 
-project_four: Fourth Project
+project_four: 메이크샵 모바일 SDK
 project_four_description: Describe your project!
 project_four_url: https://github.com/jameshamann/jekyll-material-theme
 project_four_icon: restaurant
 
-project_five: Five Project
+project_five: Android DRM SDK
 project_five_description: Describe your project!
 project_five_url: https://github.com/jameshamann/jekyll-material-theme
 project_five_icon: restaurant
 
-project_six: Six Project
+project_six: Flash HLS DRM SDK
 project_six_description: Describe your project!
 project_six_url: https://github.com/jameshamann/jekyll-material-theme
 project_six_icon: restaurant
 
-
-project_seven: Seven Project
-project_seven_description: Describe your project!
-project_seven_url: https://github.com/jameshamann/jekyll-material-theme
-project_seven_icon: restaurant
-
-
-project_eight: Eight Project
-project_eight_description: Describe your project!
-project_eight_url: https://github.com/jameshamann/jekyll-material-theme
-project_eight_icon: restaurant
-
-project_nine: Nine Project
-project_nine_description: Describe your project!
-project_nine_url: https://github.com/jameshamann/jekyll-material-theme
-project_nine_icon: restaurant
-
-project_ten: Ten Project
-project_ten_description: Describe your project!
-project_ten_url: https://github.com/jameshamann/jekyll-material-theme
-project_ten_icon: restaurant
 
 portfolio_heading: Portfolio
 portfolio_type: cards
@@ -73,35 +52,20 @@ syntax_highlighting: true
 
 skills:
   - name: android
-  - name: apache
-  - name: apple
   - name: bitbucket
   - name: c
-  - name: chrome
   - name: cplusplus
   - name: csharp
-  - name: dot-net
-  - name: facebook
-  - name: firefox
   - name: git
   - name: github
-  - name: gitlab
-  - name: google
   - name: gradle
-  - name: ie10
-  - name: itellij
   - name: java
   - name: javascript
-  - name: linux
   - name: mysql
-  - name: oracle
   - name: php
   - name: slack
   - name: sourcetree
-  - name: ssh
-  - name: swift
   - name: visualstudio
-  - name: windows8
 
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
