@@ -1,98 +1,70 @@
-title: 이충섭
-name: 이충섭
-email: csmugene@gmail.com
-description: Software Engineer
+# Welcome to Jekyll!
 
-baseurl: "/blog"
-url: ""
+# Website settings
+title: Harder, better
+description: 이충섭
+keywords: 이충섭,leecs,안드로이드,android
+baseurl:  / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: https://csmugene.github.io/  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
-display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: GitHub  # Be used at blog posts' author.
+  first_name: Hub  # Be used at index page about me section.
+  last_name: Git  # Be used at index page about me section.
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  github_username: jarrekk  # Leave blank if you don't have now
+  linkedin_id: jarrekk # Leave blank if you don't have now
+  facebook_username: jiakunnj  # Leave blank if you don't have now
+  twitter_username: jiakun614  # Leave blank if you don't have now
+  email: me@jarrekk.com  # Leave blank if you don't have now
+  cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
+  # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
+  skill_icon1:
+    - name: icon-apache
+    - name: fa-linux
+  skill_icon2:
+    - name: fa-linux
+    - name: icon-apache
+  desc: Introduce myself will be here.  # Describe yourself.
 
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
+# comment
+disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  name: jalpc
 
-project_one: "스마트택배"
-project_one_description: 누적 다운로드수 580만, 실제 사용자 300만명이 사용하는 어플리케이션으로 성장
-project_one_url: https://github.com/jameshamann/jekyll-material-theme
-project_one_icon: location_on
+# analytics
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  id: UA-93473370-3
 
-project_two: C Alarm
-project_two_description: 설정한 알람 시간에 가상화폐의 가격을 보여주는 어플리케이션
-project_two_url: https://github.com/jameshamann/jekyll-material-theme
-project_two_icon: photo_camera
+## google optimize
+go:
+  # id:
 
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
 
-project_three: 퀵커
-project_three_description: 퀵 서비스 업체 50여개에서 사용 중
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
-project_three_icon: hotel
+## donation
+donation: on  # type 'on'/'off' to choice display donation button at post page or not
 
+## carousels
+index_carousel: on  # index page carousel switch
+blog_carousel: on  # blog page carousel switch
 
-project_four: 메이크샵 모바일 SDK
-project_four_description: Describe your project!
-project_four_url: https://github.com/jameshamann/jekyll-material-theme
-project_four_icon: restaurant
-
-project_five: Android DRM SDK
-project_five_description: Describe your project!
-project_five_url: https://github.com/jameshamann/jekyll-material-theme
-project_five_icon: restaurant
-
-project_six: Flash HLS DRM SDK
-project_six_description: Describe your project!
-project_six_url: https://github.com/jameshamann/jekyll-material-theme
-project_six_icon: restaurant
-
-
-portfolio_heading: Portfolio
-portfolio_type: cards
-
-syntax_highlighting: true
-# Skill icons from https://konpa.github.io/devicon/
-
-skills:
-  - name: android
-  - name: bitbucket
-  - name: c
-  - name: cplusplus
-  - name: csharp
-  - name: git
-  - name: github
-  - name: gradle
-  - name: java
-  - name: javascript
-  - name: mysql
-  - name: php
-  - name: slack
-  - name: sourcetree
-  - name: visualstudio
-
-icon_size: 50 # font-size of icons in px
-colored: colored # Leave blank for black and white icons
-
-project_button: Check it out
-
-#github: https://github.com/jameshamann/jekyll-material-theme
-#medium: https://medium.com
-
-baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
-url: https://csmugene.github.io/ #the url of your site
-
-# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
-tag_manager_id: # This looks something like GTM-XXXXXXX
-google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
-
-cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
-
-cookie_accept_message: Thanks!
-
-syntax_highlighting: true # include the css for syntax highlighting
+# scss
+sass:
+  style: compressed
 
 # Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
 markdown: kramdown
-# theme: minima
-permalink: pretty
-plugins:
-  - jekyll-feed
-  - jekyll-assets
-  - jekyll-minifier
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
