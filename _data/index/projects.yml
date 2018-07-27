@@ -19,25 +19,25 @@
   img: /static/assets/img/landing/quickr.png
   desc: 퀵 서비스 업체 50여개에서 사용 중인 어플리케이션.
 
-  - name:  Mobile MakeShop (PowerApp)
+- name:  Mobile MakeShop (PowerApp)
   i18n: powerApp
   url: https://csmugene.github.io/prj/powerapp.html
   img: /static/assets/img/landing/powerapp.jpg
   desc: 메이크샵으로 만들어진 모든 쇼핑몰을 모바일 앱으로 만들어 줄 수 있는 SDK로써, 모든 메이크샵 쇼핑몰에서 운영 중
 
-  - name: Flash HLS DRM SDK
+- name: Flash HLS DRM SDK
   i18n: flash
   url: https://csmugene.github.io/prj/flash.html
   img: /static/assets/img/landing/inka.png
   desc: Flash에서 DRM 암호화된 HLS 영상을 재생하게 해주는 SDK
 
-  - name: Windows Phone DRM SDK
+- name: Windows Phone DRM SDK
   i18n: windows
   url: https://csmugene.github.io/prj/windows.html
   img: /static/assets/img/landing/inka.png
   desc: DRM 암호화된 파일을 복호화 해주는 Windows Phone SDK
 
-  - name: Android DRM SDK
+- name: Android DRM SDK
   i18n: androiddrm
   url: https://csmugene.github.io/prj/androiddrm.html
   img: /static/assets/img/landing/inka.png
