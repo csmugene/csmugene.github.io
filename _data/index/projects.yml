@@ -1,12 +1,11 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+- name: 스마트택배
+  i18n: smartparcel
+  url: https://csmugene.github.io/prj/smartparcel.html
+  img: /static/assets/img/landing/smartparcel.png
+  desc: 누적 다운로드수 780만, 실제 사용자 300만명을 보유한 국내 최고의 택배 어플리케이션.
 
 - name: Python
   i18n: cpython
