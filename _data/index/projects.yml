@@ -7,15 +7,14 @@
   img: /static/assets/img/landing/smartparcel.png
   desc: 누적 다운로드수 780만, 실제 사용자 300만명을 보유한 국내 최고의 택배 어플리케이션.
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+- name: C알람
+  i18n: calarm
+  url: https://csmugene.github.io/prj/calarm.html
+  img: /static/assets/img/landing/calarm.png
+  desc: 사용자가 등록한 시간에 실시간 가상화페 가격을 보여주는 어플리케이션.
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+- name: 퀵커
+  i18n: quickr
+  url: ttps://csmugene.github.io/prj/quickr.html
+  img: /static/assets/img/landing/quickr.png
+  desc: 퀵 서비스 업체 50여개에서 사용 중인 어플리케이션.
