@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: JAVA, Objective C, PHP, JAVA Script, C#, C++
-percentage: 80, 50, 20, 40, 50, 50
+aspects: JAVA, Kotlin, Rx, Swift, Objective C, PHP, JAVA Script, C#, C++
+percentage: 80, 80, 70, 60, 40, 40, 50, 50, 50
