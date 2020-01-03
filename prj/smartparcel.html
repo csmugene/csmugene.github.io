@@ -35,6 +35,8 @@
 <img src="https://lh3.googleusercontent.com/WjefwuA5xa_TR98_hRW-L90YyBzuRxyu_4d0DLsH5q6CJxgbsraPnK7SjynpgJM_RK_MoTanIm4c" alt="enter image description here"><br>
 <img src="https://lh3.googleusercontent.com/KArbHE5EOw6SQPMhsXg5JRcWhxKx_jofz3878TPDOjBERtX9aBTUFfzTjXZ3hY5Axa7PC2rRdXPy" alt="enter image description here"></p>
 <p>쇼핑몰 불러오기의 경우, WebView를 이용하여 로그인을 시도 후 Cookie를 획득한다. 그 후 URLConnection Header에 해당 Cookie를 넣어 페이지를 크롤링하여 XML 규격으로 만들고 이걸 서버로 전달한다.<br>
+로그인 시도는 WebView를 하나의 컴파일러로 보고 큰 규모의 JS를 인젝션 시켜서 로그인을 시도하게끔 한다. 이렇게 하면 앱에서 예외처리가 없이 Javascript Interface로만 처리가 가능하기때문에 깔끔하게 처리할 수 있다.<br>
+크롤링은 Rx를 이용하여 여러 개의 페이지를 한번에 크롤링하여 한번에 merge 하게끔 하여 타 앱보다 훨씬 더 빠른 속도로 처리를 하게끔 하였다.<br>
 서버상에서는 해당 XML을 미리 만들어놓은 정규식을 이용하여 문자열 파싱을 하고, 이것을 JSON으로 가공하여 앱으로 내려준다.<br>
 앱에서는 해당 JSON을 GSON을 사용하여 인스턴스화 후 데이터베이스 저장 및 노티피케이션을 통해 사용자에게 안내해준다.<br>
 해당 기능에 대해서는 iOS도 Objective C로 개발하여 현재 서비스 중에 있음.</p>
