@@ -1,31 +1,42 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>C알람</title>
+  <title>비행기모드</title>
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><h2 id="airplan-mode">비행기모드</h2>
+  <div class="stackedit__html"><h2 id="비행기모드">비행기모드</h2>
 <h3 id="기간">기간</h3>
 <p>2018.12 ~ 2019.03</p>
 <h3 id="업체">업체</h3>
 <p>개인프로젝트</p>
 <h3 id="사용기술">사용기술</h3>
-<p>JAVA, KOTLIN, RXJava, RxKotlin</p>
+<p>JAVA, KOTLIN, RXJava, RxKotlin, Retrofit</p>
 <h3 id="역할">역할</h3>
 <p>설계 및 개발</p>
 <h3 id="성과">성과</h3>
-<p>친한 개발자들과 함께 작업한 어플리케이션으로, 오프라인 환경에서 현재 위치 및 여러나라의 입국신고서 등을 보여줌</p>
+<p>친한 개발자들과 함께 작업한 어플리케이션으로, 오프라인 환경에서 현재 위치 및 여러나라의 입국신고서 등을 보여줌.<br>
+현재 누적다운로드 2300명</p>
 <h3 id="기술설명">기술설명</h3>
-<p><img src="https://lh3.googleusercontent.com/-_2QOidqyzEKp6WVzNqld3Fyq2ts-epD4AcTE6AMc77LQBC3yH-r5ZvFTqbfWhjKnGCCmm7yHUAV" alt="enter image description here"><br>
-<img src="https://lh3.googleusercontent.com/K95bM3vN8x4LQA-tqXUF0D0Y9rVzWg1Y8kIWQP1x8OXnBYxIlMgAxgbYPNSurtSEH_MYDy0M-FWh" alt="enter image description here"><br>
-<img src="https://lh3.googleusercontent.com/jmYBKvpMIbZbX9O5km4TCSPM3DzvRnAXW1GAl5-LpTiuKmE5nJTt44mqLIRqFmsJvBQs4rhKc3HK" alt="enter image description here"></p>
-<p>RecyclerView를 사용하여 메인 화면을 구성하였으며, 사용자가 관심 코인 등록 후 알람을 등록하면 위의 스크린샷처럼 정해진 시간에 날씨와 해당 코인의 가격을 노티피케이션으로 보여줌.<br>
-서버는 PHP와 mysql로 구성하였음.</p>
+<p><img src="https://csmugene.github.io/prj/img/device-2019-05-14-142018.png" alt="메인화면"><br>
+메인 화면</p>
+<p><img src="https://csmugene.github.io/prj/img/device-2019-05-14-142027.png" alt="enter image description here"><br>
+입국 카드 선택화면</p>
+<p><img src="https://csmugene.github.io/prj/img/device-2019-05-14-142036.png" alt="enter image description here"><br>
+입국 카드 상세화면</p>
+<p><img src="https://csmugene.github.io/prj/img/device-2019-05-14-142046.png" alt="enter image description here"><br>
+비행위치 화면</p>
+<p><img src="https://csmugene.github.io/prj/img/device-2019-05-14-142101.png" alt="enter image description here"><br>
+공항선택 화면</p>
+<p><img src="https://csmugene.github.io/prj/img/device-2019-05-14-142123.png" alt="enter image description here"><br>
+현재 위치가 수신시 나오는 노티피케이션</p>
+<p>전체적인 화면은 RecyclerView를 이용하여 만들었으며, 모든 API 통신은 Retrofit과 Rx를 조합하여 만들었음.<br>
+모든 이미지는 디스크캐시 형태로 저장을 하여 오프라인에서도 볼 수 있게 하였음.<br>
+비행시 현재 위치를 가져오기까지가 시간이 오래걸리기때문에 서비스를 이용하여 가져오며 수신 시 노티피케이션을 통해서 사용자에게 안내해줌.</p>
 </div>
 </body>
 

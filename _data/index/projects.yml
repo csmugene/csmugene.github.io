@@ -7,6 +7,12 @@
   img: /static/assets/img/landing/smartparcel.png
   desc: 누적 다운로드수 780만, 실제 사용자 300만명을 보유한 국내 최고의 택배 어플리케이션.
 
+- name: 비행기모드
+  i18n: androiddrm
+  url: https://csmugene.github.io/prj/airplane.html
+  img: /static/assets/img/landing/airplane.png
+  desc: 오프라인 환경에서 입국신고서 및 현재 위치를 조회할 수 있는 어플리케이션
+
 - name: C알람
   i18n: calarm
   url: https://csmugene.github.io/prj/calarm.html
